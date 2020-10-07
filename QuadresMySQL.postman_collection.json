@@ -1,0 +1,377 @@
+{
+	"info": {
+		"_postman_id": "0343d4f4-45f0-4bb5-8b39-224fe8fe8034",
+		"name": "QuadresMySQL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/shops",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/pictures",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops/1/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/pictures",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Obra 1\",\r\n\t\"author\":\"Autor 1\",\r\n\t\"price\":\"100\",\r\n    \"entryDate\":\"07/10/2020\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops/1/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Tienda Barcelona\",\r\n    \"maxCapacity\":\"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/pictures",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Obra 1\",\r\n\t\"author\":\"Autor 1\",\r\n\t\"price\":\"100\",\r\n    \"entryDate\":\"07/10/2020\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops/1/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/pictures",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Obra 2\",\r\n\t\"author\":\"Autor 2\",\r\n\t\"price\":\"200\",\r\n    \"entryDate\":\"07/10/2020\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops/1/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/pictures",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Obra 3\",\r\n\t\"author\":\"Autor 3\",\r\n\t\"price\":\"300\",\r\n    \"entryDate\":\"07/10/2020\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops/1/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/pictures",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops/1/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/2/pictures",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Obra 4\",\r\n\t\"author\":\"Autor 4\",\r\n\t\"price\":\"400\",\r\n    \"entryDate\":\"07/10/2020\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops/2/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"2",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Tienda Madrid\",\r\n    \"maxCapacity\":\"3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops/",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/2/pictures",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Obra 4\",\r\n\t\"author\":\"Autor 4\",\r\n\t\"price\":\"400\",\r\n    \"entryDate\":\"07/10/2020\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/shops/2/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"2",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/2/pictures",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops/2/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"2",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/pictures",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops/1/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/1/pictures",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops/1/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"1",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8080/shops/2/pictures",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shops/2/pictures",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shops",
+						"2",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
